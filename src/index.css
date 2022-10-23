@@ -42,3 +42,25 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.container {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) {
+  .container {
+    background-color: red;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    background-color: blue;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    background-color: orange;
+  }
+}
