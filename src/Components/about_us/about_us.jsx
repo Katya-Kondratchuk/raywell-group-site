@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <div className="about_us">
       <div className="about_block">
-        <h1 className="about_us_title">Про компанію</h1>
+        <h2 className="about_us_title">Про компанію</h2>
         <p className="about_us_text">
           Бренд Intercosmetics Milano був заснований в 1987 році, створює і
           поширює професійну продукцію для перукарів-колористів та стилістів в
