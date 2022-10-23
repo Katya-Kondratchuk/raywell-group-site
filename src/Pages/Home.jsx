@@ -3,6 +3,8 @@ import Header from "../Components/header/header";
 import Brands from "../Components/brands/brands";
 import AboutUs from "../Components/about_us/about_us";
 import Certificate from "../Components/certificate/certificate";
+import Contact from "../Components/contact/contact.jsx";
+
 
 
 
@@ -13,7 +15,8 @@ const App = () => {
       <Slider />
       <Brands />
       <AboutUs />
-      <Certificate />
+          <Certificate />
+          <Contact />
     </div>
   );
 };
