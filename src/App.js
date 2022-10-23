@@ -1,10 +1,13 @@
 import Slider from './Components/slider/Slider'
+import Header from './Components/header/header'
 
-
-function App() {
+const App = () => {
   return (
-   <Slider />
-  );
+    <div>
+      <Header />
+      <Slider />,
+    </div>
+  )
 }
 
 export default App;
