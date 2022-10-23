@@ -13,10 +13,9 @@ const Header = () => {
             <nav>
                 <ul className="d-flex">
                     <li><a type="button" href="../../Pages/Home.jsx"><img className="logo-header" src={Logo} alt="" /></a></li>
-                    <li className="lol"> <a href=''></a>
-      <ReactLogo />
-
-                    </li>
+                        <li className="lol">
+                            <a href=''><ReactLogo /></a>
+                        </li>
 
                 </ul>
                 </nav>
