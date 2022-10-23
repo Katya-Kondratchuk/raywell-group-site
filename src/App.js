@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+import Home from './Pages/Home'
+
+
+
+const App = () => {
+  return (
+  <Home />
+=======
 import Slider from "./Components/slider/Slider";
 import Header from "./Components/header/header";
 import Brands from "./Components/brands/brands";
@@ -15,6 +24,7 @@ const App = () => {
       <Certificate />
       <Contact />
     </div>
+>>>>>>> eb032c09c9dd9e7595de63108a6ebe1d6911789b
   );
 };
 

@@ -33,3 +33,18 @@
 .d-flex {
     display: flex;
 }
+
+
+.burgerIcon {
+    width: 10ex;
+    height: 10px;
+    fill: black;
+    color: black;
+    display: block;
+
+}
+
+.lol {
+    color: black;
+    fill: black;
+}
