@@ -1,7 +1,9 @@
+import Slider from './Components/slider/Slider'
+
 
 function App() {
   return (
-console.log('test')
+   <Slider />
   );
 }
 
