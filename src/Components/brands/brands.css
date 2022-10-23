@@ -1,0 +1,25 @@
+.brands {
+  padding-top: 75px;
+  padding-bottom: 0px;
+}
+.brands_title {
+  padding-top: 3px;
+  padding-bottom: 22px;
+  font-weight: 600;
+  color: #000000;
+  letter-spacing: 2.5px;
+  font-size: 12px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.brands_img {
+  padding-top: 0px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.brands_map {
+  width: 100%;
+}
