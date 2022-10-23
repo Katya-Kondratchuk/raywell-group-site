@@ -43,3 +43,6 @@ img {
   height: auto;
 }
 
+.d-flex {
+  display: flex;
+}

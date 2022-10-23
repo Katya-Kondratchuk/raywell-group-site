@@ -1,26 +1,23 @@
 import "./header.css";
 import Logo from '../../images/logoMobile.png'
-// import Burger from '../../images/menu_24px.svg'
 import {ReactComponent as ReactLogo} from '../../images/menu_24px.svg';
 import Container from "../container/container";
 
 
 const Header = () => {
     return (
-
-            <Container>
-        <header>
-            <nav>
-                <ul className="d-flex">
-                    <li><a type="button" href="../../Pages/Home.jsx"><img className="logo-header" src={Logo} alt="" /></a></li>
-                        <li className="lol">
-                            <a href=''><ReactLogo /></a>
-                        </li>
-
+        <Container>
+            <nav className="header">
+                <ul className="d-flex header-list">
+                    <li className="header-item"><a href=""><img className="logo-header" src={Logo} alt="Intercosmetics Company - Milano" /></a></li>
+                    <li className="header-item"><a href='/' className="header-item"><ReactLogo /></a></li>
                 </ul>
-                </nav>
-            </header>
-                </Container>
+            </nav>
+        
+        
+        {/*  */}
+
+        </Container>
   )
 };
 
