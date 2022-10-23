@@ -1,8 +1,8 @@
 import './container.css'
 
-const Container = () => {
+const Container = ({children}) => {
     return (
-        <div className='container'></div>
+        <div className='container'>{children}</div>
     )
 }
 

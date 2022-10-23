@@ -8,7 +8,8 @@ import Container from "../container/container";
 const Header = () => {
     return (
 
-        <header className="container ">
+            <Container>
+        <header>
             <nav>
                 <ul className="d-flex">
                     <li><a type="button" href="../../Pages/Home.jsx"><img className="logo-header" src={Logo} alt="" /></a></li>
@@ -18,8 +19,9 @@ const Header = () => {
                     </li>
 
                 </ul>
-            </nav>
-      </header>
+                </nav>
+            </header>
+                </Container>
   )
 };
 
