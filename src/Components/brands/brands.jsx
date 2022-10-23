@@ -5,7 +5,7 @@ import map from "../../images/brands_map.jpg";
 const Brands = () => {
   return (
     <div className="brands">
-      <h1 className="brands_title">ПЕРЕВАГИ БРЕНДУ</h1>
+      <h2 className="brands_title">ПЕРЕВАГИ БРЕНДУ</h2>
       <img className="brands_img" src={logo} alt="logo" />
       <img className="brands_map" src={map} alt="map" />
     </div>
