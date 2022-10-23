@@ -4,8 +4,8 @@ import Header from './Components/header/header'
 const App = () => {
   return (
     <div>
-      <Header />
-      <Slider />,
+      <Header />,
+      <Slider />
     </div>
   )
 }
