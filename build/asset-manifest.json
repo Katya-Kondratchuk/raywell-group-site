@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/raywell-group-site/static/css/main.fd5ad8f5.css",
-    "main.js": "/raywell-group-site/static/js/main.0f53f945.js",
+    "main.css": "/raywell-group-site/static/css/main.57acc117.css",
+    "main.js": "/raywell-group-site/static/js/main.4fcab0f4.js",
     "static/media/certificate_raywell.jpg": "/raywell-group-site/static/media/certificate_raywell.503ba4b8f7b2f94f23e9.jpg",
     "static/media/extremo.jpg": "/raywell-group-site/static/media/extremo.ff52ac67f3b528053110.jpg",
     "static/media/certificate_envie.jpg": "/raywell-group-site/static/media/certificate_envie.07762d5db3dad6bb58d9.jpg",
@@ -11,12 +11,14 @@
     "static/media/envie.jpg": "/raywell-group-site/static/media/envie.d7e457ee24ec81398a35.jpg",
     "static/media/brands_map.jpg": "/raywell-group-site/static/media/brands_map.40b0c1063613d06a2f5d.jpg",
     "static/media/team.jpg": "/raywell-group-site/static/media/team.49b23711b13b055a9390.jpg",
+    "static/media/logoMobile.png": "/raywell-group-site/static/media/logoMobile.085b518afc639fbc995a.png",
     "index.html": "/raywell-group-site/index.html",
-    "main.fd5ad8f5.css.map": "/raywell-group-site/static/css/main.fd5ad8f5.css.map",
-    "main.0f53f945.js.map": "/raywell-group-site/static/js/main.0f53f945.js.map"
+    "static/media/menu_24px.svg": "/raywell-group-site/static/media/menu_24px.b0e10cfbfe4a4b800ac6391ee2cb2e30.svg",
+    "main.57acc117.css.map": "/raywell-group-site/static/css/main.57acc117.css.map",
+    "main.4fcab0f4.js.map": "/raywell-group-site/static/js/main.4fcab0f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd5ad8f5.css",
-    "static/js/main.0f53f945.js"
+    "static/css/main.57acc117.css",
+    "static/js/main.4fcab0f4.js"
   ]
 }
