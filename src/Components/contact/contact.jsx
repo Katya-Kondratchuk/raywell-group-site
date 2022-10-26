@@ -1,4 +1,4 @@
-import "./Contact.css";
+import "./contact.css";
 import team from "../../images/team.jpg";
 
 const Contact = () => {
