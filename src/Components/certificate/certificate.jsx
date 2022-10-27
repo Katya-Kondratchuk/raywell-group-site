@@ -6,8 +6,8 @@ import Container from "../Container/Container";
 
 const Certificate = () => {
   return (
-    <Container>
-      <div className="certificate">
+    <section className="certificate">
+      <Container>
         <img
           className="certificate_img"
           src={raywell}
@@ -23,8 +23,8 @@ const Certificate = () => {
           src={animal}
           alt="certificate not on animal"
         />
-      </div>
-    </Container>
+      </Container>
+    </section>
   );
 };
 

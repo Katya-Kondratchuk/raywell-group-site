@@ -4,8 +4,8 @@ import Container from "../Container/Container";
 
 const Contact = () => {
   return (
-    <Container>
-      <div className="team" id="contact">
+    <section className="team" id="contact">
+      <Container>
         <img className="team_photo" src={team} alt="team_photo" />
         <h2 className="team_title">Contacts</h2>
         <ul className="social_list">
@@ -39,30 +39,8 @@ const Contact = () => {
             </a>
           </li>
         </ul>
-        <div className="contact_address">
-          <ul className="contact_address__list">
-            <li className="contact_address__item">
-              <p>м. Київ</p>
-            </li>
-            <li className="contact_address__item">
-              <p>+38(063)515-13-36</p>
-            </li>
-            <li className="contact_address__item">
-              <p>Василенко Ирина</p>
-            </li>
-            <li className="contact_address__item">
-              <p>makedonova4@gmail.com</p>
-            </li>
-            <li className="contact_address__item contact_address__item--text">
-              <address>Адреса студії Київ, вул. Хоткевича 8 </address>
-              <address>
-                Адреса офісу (самовивіз ) Київ, вул Милославська 23
-              </address>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </Container>
+      </Container>
+    </section>
   );
 };
 

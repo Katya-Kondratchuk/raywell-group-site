@@ -1,6 +1,6 @@
 .team {
   position: relative;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 /* .team::before {
@@ -104,16 +104,3 @@
   text-decoration: none;
   padding: 12px;
 }
-
-.contact_address {
-  text-align: center;
-  margin-top: 40px;
-}
-
-.contact_address__item:not(:last-child) {
-  padding-bottom: 5px;
-}
-
-/* .contact_address__item--text {
-  text-align: start;
-} */
