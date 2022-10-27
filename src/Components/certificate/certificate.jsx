@@ -1,4 +1,4 @@
-import "./Certificate.css";
+import "./certificate.css";
 import raywell from "../../images/certificate_raywell.jpg";
 import animal from "../../images/certificate_animal.jpg";
 import envie from "../../images/certificate_envie.jpg";

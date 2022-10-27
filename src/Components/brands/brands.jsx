@@ -1,4 +1,4 @@
-import "./Brands.css";
+import "./brands.css";
 import logo from "../../images/INTERCOSMETICS_LOGHI.png";
 import map from "../../images/brands_map.jpg";
 import Container from "../Container/Container";

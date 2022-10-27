@@ -1,12 +1,12 @@
-import "./Header.css";
+import "./header.css";
 import Logo from "../../images/logoMobile.png";
-import { ReactComponent as ReactLogo } from "../../images/menu_24px.svg";
-import Container from "../Container/Container";
-// import Modal from "../modal/modal";
+import Container from "../container/container";
+import Burger from "../burger/burger";
+import Menu from "../menu/menu";
 import { useState } from "react";
 
 const Header = () => {
-  const { setModalActive } = useState(true);
+    const [open, setOpen] = useState(false);
   return (
     <Container>
       <nav className="header">
@@ -22,12 +22,8 @@ const Header = () => {
           </li>
 
           <li className="header-item">
-            <button
-              className="modalOpenButton"
-              onClick={() => setModalActive(true)}
-            >
-              <ReactLogo />
-            </button>
+          <Burger open={open} setOpen={setOpen} />
+          <Menu open={open} setOpen={setOpen} />
           </li>
         </ul>
       </nav>
