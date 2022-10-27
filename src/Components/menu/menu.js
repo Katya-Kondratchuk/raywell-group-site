@@ -31,7 +31,7 @@ const Menu = ({ open }) => {
         <span role="img" aria-label="EXTREMO"></span>
         EXTREMO
       </Link>
-      <Link to="/#contact">
+      <Link to="#contact">
         <span role="img" aria-label="КОНТАКТИ"></span>
         КОНТАКТИ
       </Link>

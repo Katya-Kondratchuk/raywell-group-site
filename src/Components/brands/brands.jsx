@@ -5,13 +5,13 @@ import Container from "../Container/Container";
 
 const Brands = () => {
   return (
-    <div className="brands">
+    <section className="brands">
       <Container>
         <h2 className="brands_title">ПЕРЕВАГИ БРЕНДУ</h2>
         <img className="brands_img" src={logo} alt="logo" />
       </Container>
       <img className="brands_map" src={map} alt="map" />
-    </div>
+    </section>
   );
 };
 
