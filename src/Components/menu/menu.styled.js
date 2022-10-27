@@ -1,10 +1,9 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-
-export const StyledMenu = styled.div`
+export const StyledMenu = styled.nav`
   display: flex;
   flex-direction: column;
-  padding-top: 100px;;
+  padding-top: 100px;
   background: #1d211e;
   height: 100%;
   text-align: left;
@@ -15,14 +14,13 @@ export const StyledMenu = styled.div`
   transition: transform 0.3s ease-in-out;
   transform: translateX(-100%);
   z-index: 11;
- transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
+  transform: ${({ open }) => (open ? "translateX(0)" : "translateX(-100%)")};
 
-  
   @media (max-width: 767px) {
     width: 100%;
   }
 
-  .menuInsta{
+  .menuInsta {
     color: #ffffff;
   }
 
@@ -42,7 +40,7 @@ export const StyledMenu = styled.div`
       margin-top: 350px;
       margin-left: 47%;
     }
-  
+
     &:hover {
       color: #ffffff;
     }

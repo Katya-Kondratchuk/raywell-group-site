@@ -5,7 +5,7 @@ import Container from "../Container/Container";
 const Contact = () => {
   return (
     <Container>
-      <div className="team">
+      <div className="team" id="contact">
         <img className="team_photo" src={team} alt="team_photo" />
         <h2 className="team_title">Contacts</h2>
         <ul className="social_list">

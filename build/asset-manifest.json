@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/raywell-group-site/static/css/main.dd666ce3.css",
-    "main.js": "/raywell-group-site/static/js/main.f3f26cc4.js",
-    "static/media/certificate_raywell.jpg": "/raywell-group-site/static/media/certificate_raywell.503ba4b8f7b2f94f23e9.jpg",
+    "main.css": "/raywell-group-site/static/css/main.da010d98.css",
+    "main.js": "/raywell-group-site/static/js/main.b871981b.js",
+    "static/media/certificate_raywell.jpg": "/raywell-group-site/static/media/certificate_raywell.a09f4b7df3b2a02101d9.jpg",
     "static/media/extremo.jpg": "/raywell-group-site/static/media/extremo.ff52ac67f3b528053110.jpg",
     "static/media/certificate_envie.jpg": "/raywell-group-site/static/media/certificate_envie.07762d5db3dad6bb58d9.jpg",
-    "static/media/certificate_animal.jpg": "/raywell-group-site/static/media/certificate_animal.c223c70d05fafc3dd7f2.jpg",
+    "static/media/brands_map.jpg": "/raywell-group-site/static/media/brands_map.47eaddf88f4013c4d057.jpg",
+    "static/media/certificate_animal.jpg": "/raywell-group-site/static/media/certificate_animal.19211b734f6cf6399e88.jpg",
     "static/media/raywell.jpg": "/raywell-group-site/static/media/raywell.65d2a328be4b22a81786.jpg",
     "static/media/invidia.jpg": "/raywell-group-site/static/media/invidia.888ace91b80add6065d0.jpg",
     "static/media/envie.jpg": "/raywell-group-site/static/media/envie.d7e457ee24ec81398a35.jpg",
-    "static/media/brands_map.jpg": "/raywell-group-site/static/media/brands_map.40b0c1063613d06a2f5d.jpg",
     "static/media/team.jpg": "/raywell-group-site/static/media/team.49b23711b13b055a9390.jpg",
     "static/media/logoMobile.png": "/raywell-group-site/static/media/logoMobile.085b518afc639fbc995a.png",
+    "static/media/instaLogo.svg": "/raywell-group-site/static/media/instaLogo.6ed2cb5264b2240800b4eca149b65721.svg",
     "index.html": "/raywell-group-site/index.html",
-    "main.dd666ce3.css.map": "/raywell-group-site/static/css/main.dd666ce3.css.map",
-    "main.f3f26cc4.js.map": "/raywell-group-site/static/js/main.f3f26cc4.js.map"
+    "main.da010d98.css.map": "/raywell-group-site/static/css/main.da010d98.css.map",
+    "main.b871981b.js.map": "/raywell-group-site/static/js/main.b871981b.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd666ce3.css",
-    "static/js/main.f3f26cc4.js"
+    "static/css/main.da010d98.css",
+    "static/js/main.b871981b.js"
   ]
 }
