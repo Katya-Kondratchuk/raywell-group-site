@@ -1,6 +1,8 @@
 import React from 'react';
 import { bool } from 'prop-types';
 import { StyledMenu } from './menu.styled';
+import {ReactComponent as Insta} from '../../images/instaLogo.svg';
+
 const Menu = ({ open }) => {
   return (
     <StyledMenu open={open}>
@@ -33,7 +35,7 @@ const Menu = ({ open }) => {
         КОНТАКТИ
       </a>
       
-      {/* <a href=''><svg><use href=''></use></svg></a> */}
+      <a href='/' className='menuInsta'><Insta /></a>
     </StyledMenu>
   )
 }

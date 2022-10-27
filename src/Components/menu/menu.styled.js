@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
-export const StyledMenu = styled.nav`
+
+export const StyledMenu = styled.div`
   display: flex;
   flex-direction: column;
   padding-top: 100px;;
@@ -14,11 +15,15 @@ export const StyledMenu = styled.nav`
   transition: transform 0.3s ease-in-out;
   transform: translateX(-100%);
   z-index: 11;
-transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
+ transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
 
   
   @media (max-width: 767px) {
     width: 100%;
+  }
+
+  .menuInsta{
+    color: #ffffff;
   }
 
   a {
@@ -31,6 +36,11 @@ transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
     transition: color 0.3s linear;
     &:not(:last-child) {
       margin-bottom: 15px;
+    }
+
+    &:last-child {
+      margin-top: 350px;
+      margin-left: 47%;
     }
   
     &:hover {
