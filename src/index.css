@@ -3,17 +3,25 @@
   --main-black: #000000;
 }
 
+@font-face {
+  font-family: "Corbel", sans-serif;
+  src: url("http://fonts.cdnfonts.com/css/corbel");
+}
 @import "normalize.css";
 @import "sanitize.css";
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: white;
+  font-family: "Corbel", sans-serif;
+}
+
+* {
+  font-family: "Corbel", sans-serif;
 }
 
 code {

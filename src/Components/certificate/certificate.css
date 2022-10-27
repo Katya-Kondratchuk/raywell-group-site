@@ -3,11 +3,12 @@
   padding-bottom: 60px;
 }
 
-.certificate_img {
+.certificate_img--envie {
   margin-top: 60px;
   margin-bottom: 60px;
-  /* margin-right: 42px;
-  margin-left: 42px;
-  width: 673px; */
-  padding: 0 20px;
+}
+
+.certificate_img {
+  margin-right: auto;
+  margin-left: auto;
 }
