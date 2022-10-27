@@ -41,6 +41,7 @@ p {
 
 ul,
 ol {
+  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -53,4 +54,17 @@ img {
 
 .d-flex {
   display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+  justify-content: space-between;
+}
+
+input {
+  cursor: pointer;
 }

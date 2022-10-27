@@ -1,10 +1,12 @@
-import Home from './Pages/Home'
-
-
+import Home from "./Pages/Home";
+import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-  <Home />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      {/* <Route path="*" element={<NotFound />} /> */}
+    </Routes>
   );
 };
 

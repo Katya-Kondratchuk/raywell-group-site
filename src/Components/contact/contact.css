@@ -114,6 +114,6 @@
   padding-bottom: 5px;
 }
 
-.contact_address__list {
-  justify-content: start;
-}
+/* .contact_address__item--text {
+  text-align: start;
+} */

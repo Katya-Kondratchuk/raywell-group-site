@@ -1,21 +1,24 @@
-import Header from "../Components/header/header";
-import Brands from "../Components/brands/brands";
-import AboutUs from "../Components/about_us/about_us";
-import Certificate from "../Components/certificate/certificate";
-import Contact from "../Components/contact/contact.jsx";
-import DemoCarousel from "../Components/slider2/Slider2";
-
+import Header from "../components/Header/Header";
+import Brands from "../components/Brands/Brands";
+import AboutUs from "../components/About_us/About_us";
+import Certificate from "../components/Certificate/Certificate";
+import Contact from "../components/Contact/Contact.jsx";
+import DemoCarousel from "../components/Slider2/Slider2";
+import { Link } from "react-router-dom";
 
 const Home = () => {
-
   return (
     <div>
-      <Header />
-      <DemoCarousel />
-      <Brands />
-      <AboutUs />
-      <Certificate />
-      <Contact />
+      <nav>
+        <Link to="/">
+          <Header />
+          <DemoCarousel />
+          <Brands />
+          <AboutUs />
+          <Certificate />
+          <Contact />
+        </Link>
+      </nav>
     </div>
   );
 };
