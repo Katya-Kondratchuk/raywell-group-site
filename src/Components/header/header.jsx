@@ -4,10 +4,16 @@ import Container from "../Container/Container";
 import Burger from "../Burger/Burger";
 import Menu from "../Menu/Menu";
 import { useState } from "react";
+import {useMediaQueries} from '@react-hook/media-query'
+
 
 const Header = () => {
   const [open, setOpen] = useState(false);
-  return (
+  const {matches} = useMediaQueries({
+    screen: 'screen',
+    width: '(max-width: 767px)' 
+  })
+  return  (
     <Container>
       <nav className="header">
         <ul className="d-flex header-list">
@@ -20,9 +26,8 @@ const Header = () => {
               />
             </a>
           </li>
-
           <li className="header-item">
-            <Burger open={open} setOpen={setOpen} />
+            {matches.width ? <Burger open={open} setOpen={setOpen} /> : ''}
             <Menu open={open} setOpen={setOpen} />
           </li>
         </ul>
