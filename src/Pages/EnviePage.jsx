@@ -1,17 +1,17 @@
 import Header from "../components/Header/Header";
 import Contact from "../components/Contact/Contact.jsx";
-import Raywell from "../components/Raywell/Raywell";
 import Footer from "../components/Footer/Footer";
+import Envie from "../components/Envie/Envie";
 
-const Reywell = () => {
+const EnviePage = () => {
   return (
     <div>
       <Header />
-      <Raywell />
+      <Envie />
       <Contact />
       <Footer />
     </div>
   );
 };
 
-export default Reywell;
+export default EnviePage;
