@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/raywell-group-site/static/css/main.b8574823.css",
-    "main.js": "/raywell-group-site/static/js/main.8f792b5d.js",
+    "main.css": "/raywell-group-site/static/css/main.193c14af.css",
+    "main.js": "/raywell-group-site/static/js/main.7b08afb5.js",
+    "static/media/hyaluronic.jpg": "/raywell-group-site/static/media/hyaluronic.1730624aa5b3b6b01409.jpg",
     "static/media/certificate_raywell.jpg": "/raywell-group-site/static/media/certificate_raywell.a09f4b7df3b2a02101d9.jpg",
     "static/media/extremo.jpg": "/raywell-group-site/static/media/extremo.ff52ac67f3b528053110.jpg",
+    "static/media/deco.jpg": "/raywell-group-site/static/media/deco.46e5e9ecfe9a63c4cb1d.jpg",
     "static/media/certificate_envie.jpg": "/raywell-group-site/static/media/certificate_envie.07762d5db3dad6bb58d9.jpg",
+    "static/media/respect.jpg": "/raywell-group-site/static/media/respect.97e7193c60944f0eb7a5.jpg",
     "static/media/brands_map.jpg": "/raywell-group-site/static/media/brands_map.47eaddf88f4013c4d057.jpg",
     "static/media/certificate_animal.jpg": "/raywell-group-site/static/media/certificate_animal.19211b734f6cf6399e88.jpg",
     "static/media/raywell.jpg": "/raywell-group-site/static/media/raywell.65d2a328be4b22a81786.jpg",
@@ -18,11 +21,11 @@
     "static/media/logoMobile.png": "/raywell-group-site/static/media/logoMobile.085b518afc639fbc995a.png",
     "static/media/instaLogo.svg": "/raywell-group-site/static/media/instaLogo.0de594ca24688d4a354faa1841bc3b80.svg",
     "index.html": "/raywell-group-site/index.html",
-    "main.b8574823.css.map": "/raywell-group-site/static/css/main.b8574823.css.map",
-    "main.8f792b5d.js.map": "/raywell-group-site/static/js/main.8f792b5d.js.map"
+    "main.193c14af.css.map": "/raywell-group-site/static/css/main.193c14af.css.map",
+    "main.7b08afb5.js.map": "/raywell-group-site/static/js/main.7b08afb5.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8574823.css",
-    "static/js/main.8f792b5d.js"
+    "static/css/main.193c14af.css",
+    "static/js/main.7b08afb5.js"
   ]
 }
