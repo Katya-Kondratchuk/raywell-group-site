@@ -1,4 +1,4 @@
-import "./Header.css";
+import "./header.css";
 import Logo from "../../images/logoMobile.png";
 import Container from "../Container/Container";
 import Burger from "../Burger/Burger";
