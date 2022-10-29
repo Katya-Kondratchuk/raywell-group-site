@@ -1,6 +1,6 @@
 import "./Brands.css";
-import logo from "../../images/INTERCOSMETICS_LOGHI.png";
-import map from "../../images/brands_map.jpg";
+import logo from "../../images/home/logo.png";
+import map from "../../images/home/brands_map.jpg";
 import Container from "../Container/Container";
 
 const Brands = () => {
