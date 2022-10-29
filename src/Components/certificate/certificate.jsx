@@ -1,7 +1,7 @@
 import "./Certificate.css";
-import raywell from "../../images/certificate_raywell.jpg";
-import animal from "../../images/certificate_animal.jpg";
-import envie from "../../images/certificate_envie.jpg";
+import raywell from "../../images/home/certificate_raywell.jpg";
+import animal from "../../images/home/certificate_animal.jpg";
+import envie from "../../images/home/certificate_envie.jpg";
 import Container from "../Container/Container";
 
 const Certificate = () => {

@@ -1,5 +1,5 @@
 import "./Contact.css";
-import team from "../../images/team.jpg";
+import team from "../../images/home/team.jpg";
 import Container from "../Container/Container";
 
 const Contact = () => {
