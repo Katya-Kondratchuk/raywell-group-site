@@ -1,5 +1,6 @@
 import './Powder.css';
-import Pudres from '../../images/pudres.jpg'
+import Pudres from '../../images/pudresTablet.jpg'
+import Powder from '../../images/powder.jpg'
 
 
 const PowderComp = () => {
@@ -7,7 +8,7 @@ const PowderComp = () => {
         <div>
             <h1 className='sectionTitle'>Technics</h1>
             <span className='sectionText'>Освітлюючі пудри Raywell</span>
-            <img src={Pudres} alt="Пудра" />
+            <img className='powder-img' src={Pudres} alt="Пудра" />
             <div className='powder-container'>
                 <details className='powder-details'>
                     <summary className='powder-summary'>Безаміачна пудра Amonia Free</summary>
@@ -25,6 +26,7 @@ const PowderComp = () => {
                     <p className='powder-text'> Склад: Magnesium carbonate, ammonium persulfate, Sodiumsilicate, Sodium persulfate, Sodium stearate, Sodium mtasilicate, Potassium persulfate, Diammonium phosphate, Silica, Sodium lauryl sulfate, Cyamopsis tetragonoloba (guar) gum, Xanthan gum, Tetrasodium EDTA, Paraffinum liquidum\minerai oil, Ultramarines/CI 77007.</p>    
                 </details>
             </div>
+            <img className='powder-img' src={Powder} alt="Powder" />
         </div>
 
     )
