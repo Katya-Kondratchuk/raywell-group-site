@@ -2,9 +2,9 @@ import "./Envie.css";
 
 import Container from "../Container/Container";
 
-import Deco from "../../images/deco.jpg";
-import Respect from "../../images/respect.jpg";
-import Hyaluronic from "../../images/hyaluronic.jpg";
+import Deco from "../../images/envie/deco.jpg";
+import Respect from "../../images/envie/respect.jpg";
+import Hyaluronic from "../../images/envie/hyaluronic.jpg";
 
 import { Link } from "react-router-dom";
 
@@ -48,7 +48,7 @@ const Envie = () => {
         </ul>
         <ul className="vegan_series__list">
           <li className="vegan_series__item">
-            <Link to="/">
+            <Link to="/vegan">
               <div className="vegan_series__title vegan_series__title--green">
                 Vegan
               </div>

@@ -1,10 +1,10 @@
 import Home from "./Pages/Home";
 import Raywell from "./Pages/Raywell";
 import { Routes, Route } from "react-router-dom";
+import EnviePage from "./pages/EnviePage";
+import VeganPage from "./pages/VeganPage";
 import Technics from "./Pages/Technics";
-import EnviePage from "./Pages/EnviePage";
 import Powder from "./Pages/Powder";
-
 
 const App = () => {
   return (
@@ -14,6 +14,7 @@ const App = () => {
       <Route path="technics" element={<Technics />} />
       <Route path="powder" element={<Powder />} />
       <Route path="envie" element={<EnviePage />} />
+      <Route path="vegan" element={<VeganPage />} />
       {/* <Route path="invidia" element={<Invidia />} /> */}
       {/* <Route path="*" element={<NotFound />} /> */}
     </Routes>
