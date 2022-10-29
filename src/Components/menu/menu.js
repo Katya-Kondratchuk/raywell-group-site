@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Menu = ({ open }) => {
   return (
     <StyledMenu open={open}>
-      <Link to="/">
+      <Link to="/raywell-group-site">
         <span role="img" aria-label="Головна сторінка"></span>
         Головна
       </Link>
