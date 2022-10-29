@@ -8,6 +8,8 @@ import Powder from "./pages/Powder";
 import Oxygen from "./pages/Oxygen";
 import VeganPage from "./pages/VeganPage";
 import NotFoundPage from "./pages/NotFoundPage";
+import ColorPlexPage from "./pages/ColorPlexPage";
+
 
 const App = () => {
   return (
@@ -17,6 +19,7 @@ const App = () => {
       <Route path="technics" element={<Technics />} />
       <Route path="powder" element={<Powder />} />
       <Route path="oxygen" element={<Oxygen />} />
+      <Route path="colorplex" element={<ColorPlexPage />} />
       <Route path="envie" element={<EnviePage />} />
       <Route path="vegan" element={<VeganPage />} />
       {/* <Route path="invidia" element={<Invidia />} /> */}
