@@ -4,10 +4,12 @@ import Container from "../Container/Container";
 
 const Contact = () => {
   return (
-    <section className="team" id="contact">
+    <section className="team">
       <Container>
         <img className="team_photo" src={team} alt="team_photo" />
-        <h2 className="team_title">Contacts</h2>
+        <h2 className="team_title" id="contact">
+          Contacts
+        </h2>
         <ul className="social_list">
           <li className="social_item social_item--instagram">
             <a

@@ -2,11 +2,12 @@ import Home from "./pages/Home";
 import Raywell from "./pages/Raywell";
 import { Routes, Route } from "react-router-dom";
 
-import Technics from "./Pages/Technics";
-import EnviePage from "./Pages/EnviePage";
-import Powder from "./Pages/Powder";
-import Oxygen from "./Pages/Oxygen";
+import Technics from "./pages/Technics";
+import EnviePage from "./pages/EnviePage";
+import Powder from "./pages/Powder";
+import Oxygen from "./pages/Oxygen";
 import VeganPage from "./pages/VeganPage";
+import NotFoundPage from "./pages/NotFoundPage";
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
       <Route path="envie" element={<EnviePage />} />
       <Route path="vegan" element={<VeganPage />} />
       {/* <Route path="invidia" element={<Invidia />} /> */}
-      {/* <Route path="*" element={<NotFound />} /> */}
+      <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );
 };
