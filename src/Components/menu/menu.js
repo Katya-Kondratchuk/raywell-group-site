@@ -2,7 +2,8 @@ import React from "react";
 import { bool } from "prop-types";
 import { StyledMenu } from "./Menu.styled";
 import { ReactComponent as Insta } from "../../images/instaLogo.svg";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Menu = ({ open }) => {
   return (
@@ -11,7 +12,7 @@ const Menu = ({ open }) => {
         <span role="img" aria-label="Головна сторінка"></span>
         Головна
       </Link>
-      <Link to="/">
+      <Link to="/raywell-group-site#aboutUs">
         <span role="img" aria-label="Про нас"></span>
         ПРО НАС
       </Link>
@@ -31,7 +32,7 @@ const Menu = ({ open }) => {
         <span role="img" aria-label="EXTREMO"></span>
         EXTREMO
       </Link>
-      <Link to="#contact">
+      <Link to="/raywell-group-site#contact">
         <span role="img" aria-label="КОНТАКТИ"></span>
         КОНТАКТИ
       </Link>
