@@ -10,59 +10,157 @@ import { Link } from "react-router-dom";
 
 const Envie = () => {
   return (
-    <Container>
-      <ul className="raywell-list">
-        <li className="raywell-item card">
-          <Link to="/technics">
-            <img src={Deco} alt="Raywell Technics"></img>
-            <div className="raywell-container">
-              <h2 className="raywell-title">VEGAN GREEN DECO - 9</h2>
-              <p className="raywell-descr">
-                Знебарвлююча пудра нового покоління
+    <section className="envie">
+      <Container>
+        <h2 className="envie__new">NEW</h2>
+        <ul className="envie__list">
+          <li className="envie__item">
+            <Link to="/deco">
+              <img src={Deco} alt="VEGAN GREEN DECO"></img>
+              <div className="envie__container">
+                <h2 className="envie__title">VEGAN GREEN DECO - 9</h2>
+                <p className="envie__text">
+                  Знебарвлююча пудра нового покоління
+                </p>
+              </div>
+            </Link>
+          </li>
+          <li className="envie__item">
+            <Link to="/respect">
+              <img src={Respect} alt="Vegan Respect"></img>
+              <div className="envie__container">
+                <h2 className="envie__title">Vegan Respect</h2>
+                <p className="envie__text">
+                  Новий професійний стійкий рослинний фарбник
+                </p>
+              </div>
+            </Link>
+          </li>
+          <li className="envie__item">
+            <Link to="/hyaluronic">
+              <img src={Hyaluronic} alt="Серія з гіалуроновою кислотою"></img>
+              <div className="envie__container">
+                <h2 className="envie__title">Серія з гіалуроновою кислотою</h2>
+                <p className="envie__text">Для інтенсивного росту волосся</p>
+              </div>
+            </Link>
+          </li>
+        </ul>
+        <ul className="vegan_series__list">
+          <li className="vegan_series__item">
+            <Link to="/">
+              <div className="vegan_series__title vegan_series__title--green">
+                Vegan
+              </div>
+              <p className="vegan_series__text">Серія VEGAN</p>
+            </Link>
+          </li>
+          <li className="vegan_series__item">
+            <Link to="/">
+              <div className="vegan_series__title vegan_series__title--blue">
+                Shampoo Reflex
+              </div>
+              <p className="vegan_series__text">Шампунь для блонду</p>
+              <p className="vegan_series__subtext">
+                Шампунь з ефектом анти-жовтизни
               </p>
-            </div>
-          </Link>
-        </li>
-        <li className="raywell-item card">
-          <a href="/">
-            <img src={Respect} alt="Raywell Bio"></img>
-            <div className="raywell-container">
-              <h2 className="raywell-title">Vegan Respect</h2>
-              <p className="raywell-descr">
-                Новий професійний стійкий рослинний фарбник
+            </Link>
+          </li>
+          <li className="vegan_series__item">
+            <Link to="/">
+              <div className="vegan_series__title vegan_series__title--yellowgreen">
+                Collagene
+              </div>
+              <p className="vegan_series__text">Колагенова серія</p>
+              <p className="vegan_series__subtext">Для фарбованого волосся</p>
+            </Link>
+          </li>
+          <li className="vegan_series__item">
+            <Link to="/">
+              <div className="vegan_series__title vegan_series__title--yellow">
+                Milk Protein
+              </div>
+              <p className="vegan_series__text">Серія з молочними протеїнами</p>
+              <p className="vegan_series__subtext">Для фарбованого волосся</p>
+            </Link>
+          </li>
+          <li className="vegan_series__item">
+            <Link to="/">
+              <div className="vegan_series__title vegan_series__title--grey">
+                Keratin
+              </div>
+              <p className="vegan_series__text">Кератинова серія</p>
+              <p className="vegan_series__subtext">Для пошкодженого волосся</p>
+            </Link>
+          </li>
+          <li className="vegan_series__item">
+            <Link to="/">
+              <div className="vegan_series__title vegan_series__title--brown">
+                Argan Oil
+              </div>
+              <p className="vegan_series__text">Серія з аргановою олією</p>
+              <p className="vegan_series__subtext">
+                Серія для відновлення пошкодженого волосся
               </p>
-            </div>
-          </a>
-        </li>
-        <li className="raywell-item card">
-          <a href="/">
-            <img src={Hyaluronic} alt="Raywell procedures"></img>
-            <div className="raywell-container">
-              <h2 className="raywell-title">Серія з гіалуроновою кислотою</h2>
-              <p className="raywell-descr">Для інтенсивного росту волосся</p>
-            </div>
-          </a>
-        </li>
-        {/* <li className="raywell-item card">
-          <a href="/">
-            <img src={Mode} alt="Raywell Mode"></img>
-            <div className="raywell-container">
-              <h2 className="raywell-title">Raywell Mode</h2>
-              <p className="raywell-descr">Серія для моделювання</p>
-            </div>
-          </a>
-        </li>
-        <li className="raywell-item card">
-          <a href="/">
-            <img src={Barber} alt="Raywell Barber"></img>
-            <div className="raywell-container">
-              <h2 className="raywell-title">Raywell Barber</h2>
-              <p className="raywell-descr">Чоловіча серія для Барберів</p>
-            </div>
-          </a>
-        </li> */}
-      </ul>
-    </Container>
+            </Link>
+          </li>
+          <li className="vegan_series__item">
+            <Link to="/">
+              <div className="vegan_series__title vegan_series__title--pink">
+                Macadamia
+              </div>
+              <p className="vegan_series__text">Серія з олією макадамії</p>
+              <p className="vegan_series__subtext">
+                Зволожуюча серія з олією макадамії
+              </p>
+            </Link>
+          </li>
+          <li className="vegan_series__item">
+            <Link to="/">
+              <div className="vegan_series__title vegan_series__title--red">
+                Protection
+              </div>
+              <p className="vegan_series__text">Захист</p>
+              <p className="vegan_series__subtext">
+                Продукти для комфортного та безпечного фарбування
+              </p>
+            </Link>
+          </li>
+          <li className="vegan_series__item">
+            <Link to="/">
+              <div className="vegan_series__title vegan_series__title--skyblue">
+                Styling
+              </div>
+              <p className="vegan_series__text">Серія стайлінг</p>
+              <p className="vegan_series__subtext">
+                Серія для моделювання зачісок
+              </p>
+            </Link>
+          </li>
+          <li className="vegan_series__item">
+            <Link to="/">
+              <div className="vegan_series__title vegan_series__title--black">
+                For Man
+              </div>
+              <p className="vegan_series__text">Чоловіча серія</p>
+              <p className="vegan_series__subtext">Серія для чоловіків</p>
+            </Link>
+          </li>
+          <li className="vegan_series__item vegan_series__item--center">
+            <Link to="/">
+              <div className="vegan_series__title vegan_series__title--orange">
+                Sun
+              </div>
+              <p className="vegan_series__text">Серія Sun</p>
+              <p className="vegan_series__subtext">
+                Сонячна серія для очищення зволоження та захисту волосся у
+                літній період
+              </p>
+            </Link>
+          </li>
+        </ul>
+      </Container>
+    </section>
   );
 };
 
