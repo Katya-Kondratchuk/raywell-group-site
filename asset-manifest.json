@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/raywell-group-site/static/css/main.7a15942d.css",
-    "main.js": "/raywell-group-site/static/js/main.3877cd79.js",
+    "main.css": "/raywell-group-site/static/css/main.0133f4e7.css",
+    "main.js": "/raywell-group-site/static/js/main.81933dcf.js",
     "static/media/lumin-hair.jpg": "/raywell-group-site/static/media/lumin-hair.7031f7e11dae3feb58c6.jpg",
     "static/media/perm-plex.jpg": "/raywell-group-site/static/media/perm-plex.d697fc8085fed66e3518.jpg",
     "static/media/hyaluronic.jpg": "/raywell-group-site/static/media/hyaluronic.1730624aa5b3b6b01409.jpg",
+    "static/media/2ndOxigen.jpg": "/raywell-group-site/static/media/2ndOxigen.e5299659130f71f5ae64.jpg",
     "static/media/bio-plex.jpg": "/raywell-group-site/static/media/bio-plex.47e9f28f1e0d6729ef13.jpg",
     "static/media/certificate_raywell.jpg": "/raywell-group-site/static/media/certificate_raywell.a09f4b7df3b2a02101d9.jpg",
+    "static/media/oxigen-solo.jpg": "/raywell-group-site/static/media/oxigen-solo.b6eb765fe71735907297.jpg",
     "static/media/extremo.jpg": "/raywell-group-site/static/media/extremo.ff52ac67f3b528053110.jpg",
     "static/media/deco.jpg": "/raywell-group-site/static/media/deco.46e5e9ecfe9a63c4cb1d.jpg",
     "static/media/powder.jpg": "/raywell-group-site/static/media/powder.7e26d56f6e2b1556ebbb.jpg",
@@ -39,11 +41,11 @@
     "static/media/logoMobile.png": "/raywell-group-site/static/media/logoMobile.085b518afc639fbc995a.png",
     "static/media/instaLogo.svg": "/raywell-group-site/static/media/instaLogo.0de594ca24688d4a354faa1841bc3b80.svg",
     "index.html": "/raywell-group-site/index.html",
-    "main.7a15942d.css.map": "/raywell-group-site/static/css/main.7a15942d.css.map",
-    "main.3877cd79.js.map": "/raywell-group-site/static/js/main.3877cd79.js.map"
+    "main.0133f4e7.css.map": "/raywell-group-site/static/css/main.0133f4e7.css.map",
+    "main.81933dcf.js.map": "/raywell-group-site/static/js/main.81933dcf.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a15942d.css",
-    "static/js/main.3877cd79.js"
+    "static/css/main.0133f4e7.css",
+    "static/js/main.81933dcf.js"
   ]
 }
