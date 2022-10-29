@@ -1,6 +1,8 @@
 import Header from "../components/Header/Header";
 import Contact from "../components/Contact/Contact";
 import TechnicsComp from "../components/Technics/Technics";
+import Footer from "../components/Footer/Footer";
+
 
 
 
@@ -9,7 +11,8 @@ const Technics = () => {
         <div>
          <Header />
          <TechnicsComp />
-         <Contact />
+            <Contact />
+            <Footer />
         </div>
             )
 }
