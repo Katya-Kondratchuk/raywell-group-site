@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/raywell-group-site/static/css/main.7a15942d.css",
-    "main.js": "/raywell-group-site/static/js/main.5f5e5430.js",
+    "main.js": "/raywell-group-site/static/js/main.3877cd79.js",
     "static/media/lumin-hair.jpg": "/raywell-group-site/static/media/lumin-hair.7031f7e11dae3feb58c6.jpg",
     "static/media/perm-plex.jpg": "/raywell-group-site/static/media/perm-plex.d697fc8085fed66e3518.jpg",
     "static/media/hyaluronic.jpg": "/raywell-group-site/static/media/hyaluronic.1730624aa5b3b6b01409.jpg",
@@ -40,10 +40,10 @@
     "static/media/instaLogo.svg": "/raywell-group-site/static/media/instaLogo.0de594ca24688d4a354faa1841bc3b80.svg",
     "index.html": "/raywell-group-site/index.html",
     "main.7a15942d.css.map": "/raywell-group-site/static/css/main.7a15942d.css.map",
-    "main.5f5e5430.js.map": "/raywell-group-site/static/js/main.5f5e5430.js.map"
+    "main.3877cd79.js.map": "/raywell-group-site/static/js/main.3877cd79.js.map"
   },
   "entrypoints": [
     "static/css/main.7a15942d.css",
-    "static/js/main.5f5e5430.js"
+    "static/js/main.3877cd79.js"
   ]
 }
