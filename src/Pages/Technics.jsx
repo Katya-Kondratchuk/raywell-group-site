@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import Contact from "../components/Contact/Contact";
+import Contact from "../components/Contact/Сontact";
 import TechnicsComp from "../components/Technics/Technics";
 import Footer from "../components/Footer/Footer";
 
