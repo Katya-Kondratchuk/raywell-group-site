@@ -12,6 +12,8 @@
     padding: 2px 16px;
 }
 
+
+
 .raywell-title {
     font-size: 22px;
     line-height: 1.23;
@@ -77,5 +79,8 @@
 @media screen and (min-width: 1200px) {
 .raywell-list {
     margin-bottom: 20px;
+}
+.raywell-img {
+height: 307px;
 }
 }

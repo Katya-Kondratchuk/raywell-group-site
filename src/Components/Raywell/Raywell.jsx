@@ -23,13 +23,13 @@ const Raywell = () => {
           </Link>
         </li>
         <li className="raywell-item card">
-          <a href="/">
+            <Link to="/technics">
             <img src={Bio} alt="Raywell Bio"></img>
             <div className="raywell-container">
               <h2 className="raywell-title">Raywell bio</h2>
               <p className="raywell-descr">Серія bio</p>
             </div>
-          </a>
+            </Link>
         </li>
         <li className="raywell-item card">
           <a href="/">
