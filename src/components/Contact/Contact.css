@@ -1,0 +1,114 @@
+.team {
+  position: relative;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .team {
+    padding-bottom: 70px;
+    padding-top: 70px;
+  }
+}
+
+/* .team::before {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 0.5px;
+  position: absolute;
+  top: -30px;
+  left: 0%;
+  border-radius: 4px;
+  transform: translate(50%, 50%);
+  background: rgb(196, 194, 217);
+  background: rgb(245, 245, 246);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 245, 246, 0.7710434515603116) 0%,
+    rgba(141, 141, 142, 1) 50%,
+    rgba(253, 253, 254, 1) 100%
+  );
+}
+
+@media screen and (min-width: 768px) {
+  .team::before {
+    width: 500px;
+    height: 1px;
+    left: 0%;
+  }
+} */
+
+.team_photo {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  box-sizing: content-box;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .team_photo {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .team_photo {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.team_title {
+  font-size: 20px;
+  line-height: 1.35;
+  font-weight: 600;
+  text-align: center;
+  color: #1e1e1e;
+  margin-top: 22px;
+  margin-bottom: 25px;
+}
+
+.social_list {
+  text-align: center;
+}
+
+.social_item {
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  width: 285px;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.social_item--instagram {
+  background-color: #db71bb;
+}
+
+.social_item--viber {
+  background-color: #0087d0;
+}
+
+.social_item--telegram {
+  background-color: #935bbe;
+}
+
+.social_item--email {
+  background-color: #168de2;
+}
+
+.social_item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.social_link {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  padding: 12px;
+}
