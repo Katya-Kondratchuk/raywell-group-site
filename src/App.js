@@ -1,5 +1,5 @@
-import Home from "./pages/Home";
-import Raywell from "./pages/Raywell";
+import Home from "./Pages/Home";
+import Raywell from "./Pages/Raywell";
 import { Routes, Route } from "react-router-dom";
 
 import Technics from "./pages/Technics";
