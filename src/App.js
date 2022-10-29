@@ -10,8 +10,8 @@ import VeganPage from "./Pages/VeganPage";
 
 const App = () => {
   return (
-    <Routes>n
-      <Route path="/" element={<Home />} />
+    <Routes>
+      <Route path="/raywell-group-site" element={<Home />} />
       <Route path="raywell" element={<Raywell />} />
       <Route path="technics" element={<Technics />} />
       <Route path="powder" element={<Powder />} />
