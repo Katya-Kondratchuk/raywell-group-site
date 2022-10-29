@@ -1,12 +1,12 @@
-import Home from "./pages/Home";
-import Raywell from "./pages/Raywell";
+import Home from "./Pages/Home";
+import Raywell from "./Pages/Raywell";
 import { Routes, Route } from "react-router-dom";
 
 import Technics from "./Pages/Technics";
 import EnviePage from "./Pages/EnviePage";
 import Powder from "./Pages/Powder";
 import Oxygen from "./Pages/Oxygen";
-import VeganPage from "./pages/VeganPage";
+import VeganPage from "./Pages/VeganPage";
 
 const App = () => {
   return (
