@@ -1,0 +1,46 @@
+.header-list {
+  height: 100%;
+  align-items: center;
+}
+
+.header__envie {
+  background-color: rgb(201, 201, 201);
+  box-shadow: rgb(0 0 0 / 0%) 0px 1px 3px;
+}
+
+@media screen and (max-width: 767px) {
+  .logo-header {
+    min-width: 120px;
+    height: 40px;
+  }
+
+  .header-list {
+    justify-content: space-between;
+  }
+}
+
+.header {
+  height: 78px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-header {
+    min-width: 120px;
+    height: 45px;
+    margin-right: 20px;
+  }
+
+  .header-list {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo-header {
+    min-width: 120px;
+    height: 45px;
+    margin-right: 300px;
+  }
+}

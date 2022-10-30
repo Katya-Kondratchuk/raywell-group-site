@@ -8,6 +8,9 @@ import Powder from "./pages/Powder";
 import Oxygen from "./pages/Oxygen";
 import VeganPage from "./pages/VeganPage";
 import NotFoundPage from "./pages/NotFoundPage";
+import DecoPage from "./pages/DecoPage";
+import RespectPage from "./pages/RespectPage";
+import HyaluronicPage from "./pages/HyaluronicPage";
 
 const App = () => {
   return (
@@ -18,6 +21,9 @@ const App = () => {
       <Route path="powder" element={<Powder />} />
       <Route path="oxygen" element={<Oxygen />} />
       <Route path="envie" element={<EnviePage />} />
+      <Route path="deco" element={<DecoPage />} />
+      <Route path="respect" element={<RespectPage />} />
+      <Route path="hyaluronic" element={<HyaluronicPage />} />
       <Route path="vegan" element={<VeganPage />} />
       {/* <Route path="invidia" element={<Invidia />} /> */}
       <Route path="*" element={<NotFoundPage />} />
