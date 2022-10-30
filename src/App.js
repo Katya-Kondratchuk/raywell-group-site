@@ -8,9 +8,14 @@ import Powder from "./pages/Powder";
 import Oxygen from "./pages/Oxygen";
 import VeganPage from "./pages/VeganPage";
 import NotFoundPage from "./pages/NotFoundPage";
+<<<<<<< HEAD
 import DecoPage from "./pages/DecoPage";
 import RespectPage from "./pages/RespectPage";
 import HyaluronicPage from "./pages/HyaluronicPage";
+=======
+import ColorPlexPage from "./pages/ColorPlexPage";
+
+>>>>>>> 46406fe0ba156505dbe8187a531dce396f6e0123
 
 const App = () => {
   return (
@@ -20,6 +25,7 @@ const App = () => {
       <Route path="technics" element={<Technics />} />
       <Route path="powder" element={<Powder />} />
       <Route path="oxygen" element={<Oxygen />} />
+      <Route path="colorplex" element={<ColorPlexPage />} />
       <Route path="envie" element={<EnviePage />} />
       <Route path="deco" element={<DecoPage />} />
       <Route path="respect" element={<RespectPage />} />
