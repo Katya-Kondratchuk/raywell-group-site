@@ -56,7 +56,7 @@ const Envie = () => {
             </Link>
           </li>
           <li className="vegan_series__item">
-            <Link to="/">
+            <Link to="/shampoo-reflex">
               <div className="vegan_series__title vegan_series__title--blue">
                 Shampoo Reflex
               </div>
@@ -67,7 +67,7 @@ const Envie = () => {
             </Link>
           </li>
           <li className="vegan_series__item">
-            <Link to="/">
+            <Link to="/collagen">
               <div className="vegan_series__title vegan_series__title--yellowgreen">
                 Collagene
               </div>
@@ -76,7 +76,7 @@ const Envie = () => {
             </Link>
           </li>
           <li className="vegan_series__item">
-            <Link to="/">
+            <Link to="/milk-protein">
               <div className="vegan_series__title vegan_series__title--yellow">
                 Milk Protein
               </div>

@@ -1,0 +1,83 @@
+.shampoo {
+  padding-top: 50px;
+}
+
+.sectionTitle {
+  font-size: 30px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.23;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.sectionTitle--margin {
+  margin-top: 40px;
+}
+
+.sectionText {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 560px;
+  font-size: 20px;
+  line-height: 1.4;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 45px;
+  justify-content: center;
+}
+
+.sectionText--margin {
+  margin-bottom: 0;
+}
+
+.shampoo__wrapper {
+  padding: 45px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .shampoo__wrapper {
+    max-width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .shampoo__wrapper {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.shampoo__title {
+  margin-bottom: 45px;
+  font-weight: 600;
+  line-height: 1.17;
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .shampoo__title {
+    font-size: 28px;
+    line-height: 1.17;
+  }
+}
+
+.shampoo__text {
+  font-size: 16px;
+  line-height: 1.45;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .shampoo__text {
+    font-size: 20px;
+    line-height: 1.55;
+  }
+}
+
+.shampoo__text--margin {
+  margin-bottom: 20px;
+}

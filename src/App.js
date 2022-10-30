@@ -12,6 +12,9 @@ import DecoPage from "./pages/DecoPage";
 import RespectPage from "./pages/RespectPage";
 import HyaluronicPage from "./pages/HyaluronicPage";
 import ColorPlexPage from "./pages/ColorPlexPage";
+import ShampooReflexPage from "./pages/ShampooReflexPage";
+import CollagenePage from "./pages/CollagenePage";
+import MilkProteinPage from "./pages/MilkProteinPage";
 
 const App = () => {
   return (
@@ -27,6 +30,10 @@ const App = () => {
       <Route path="respect" element={<RespectPage />} />
       <Route path="hyaluronic" element={<HyaluronicPage />} />
       <Route path="vegan" element={<VeganPage />} />
+      <Route path="collagen" element={<CollagenePage />} />
+      <Route path="milk-protein" element={<MilkProteinPage />} />
+      <Route path="shampoo-reflex" element={<ShampooReflexPage />} />
+
       {/* <Route path="invidia" element={<Invidia />} /> */}
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
