@@ -26,9 +26,10 @@ const ColorPlex = () => {
   return (
     <div>
 
-      <h1 className="sectionTitle">Color Plex</h1>
+      <h1 className="colorPlex-Title">Color Plex</h1>
       <span className="sectionText colorplex-text">
-        Фарбник <br />з рослинним кератином
+        Фарбник
+        <br />з рослинним кератином
       </span>
       <img className="colorPlexImg" src={Main} alt="ColorPlex" />
       <Container>
