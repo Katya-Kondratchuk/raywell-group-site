@@ -3,3 +3,37 @@
     flex-wrap: nowrap;
 }
 
+.colorPlexImg {
+    width: 100%;
+}
+
+.colorPlexColors{
+    font-size: 28px;
+    line-height: 1.17;
+    font-weight: 600;
+    padding-bottom: 35px;
+    margin-right: auto;
+}
+
+.textWrapper {
+    margin: 0 auto;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 900px;
+}
+
+.textWrapper p {
+    display: block;
+    font-size: 20px;
+    line-height: 1.55;
+    font-weight: 400;
+        color: #000000;
+}
+
+.textWrapper p:last-child {
+margin-top: 31px;
+}
