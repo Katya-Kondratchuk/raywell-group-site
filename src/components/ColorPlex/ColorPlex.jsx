@@ -2,33 +2,38 @@ import "./ColorPlex.css";
 import Container from '../Container/Container'
 import Main from '../../images/colorPlex/main.jpg'
 
-// import Slider1 from '../../images/colorPlex/slider1.jpg'
-// import Slider2 from '../../images/colorPlex/slider2.jpg'
-// import Slider3 from '../../images/colorPlex/slider3.jpg'
-// import Slider4 from '../../images/colorPlex/slider4.jpg'
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
 
-// const images = [
-//   {
-//     original: "../../images/colorPlex/slider1.jpg",
-//   },
-//   {
-//     original: "../../images/colorPlex/slider2.jpg",
-//   },
-//   {
-//     original: "../../images/colorPlex/slider3.jpg",
-//   },
-//   {
-//     original: "../../images/colorPlex/slider4.jpg",
-//   },
-// ];
+
+
+import Slider1 from '../../images/colorPlex/slider1.jpg'
+import Slider2 from '../../images/colorPlex/slider2.jpg'
+import Slider3 from '../../images/colorPlex/slider3.jpg'
+import Slider4 from '../../images/colorPlex/slider4.jpg'
+
+import list from '../../images/colorPlex/pricelist.jpg'
+import schiaritura from '../../images/colorPlex/schiaritura.jpg'
+import hairStyles from '../../images/colorPlex/hairStyles.jpg'
+const handleDragStart = (e) => e.preventDefault();
+
+const items = [
+  <img src={Slider1} onDragStart={handleDragStart} role="presentation" />,
+  <img src={Slider2} onDragStart={handleDragStart} role="presentation" />,
+  <img src={Slider3} onDragStart={handleDragStart} role="presentation" />,
+  <img src={Slider4} onDragStart={handleDragStart} role="presentation" />,
+];
+
+
 
 const ColorPlex = () => {
   return (
     <div>
 
-      <h1 className="sectionTitle">Color Plex</h1>
+      <h1 className="colorPlex-Title">Color Plex</h1>
       <span className="sectionText colorplex-text">
-        Фарбник <br />з рослинним кератином
+        Фарбник
+        <br />з рослинним кератином
       </span>
       <img className="colorPlexImg" src={Main} alt="ColorPlex" />
       <Container>
@@ -38,7 +43,11 @@ const ColorPlex = () => {
           <p>Окрім цього, насіння кіноа містить амінокислоти, серед яких - "лізин". Лізин сприяє природному виробленню колагену. Color Plex дозволяє провести процес фарбування зберігаючи цілісність структури волосся, робить його міцним, блискучим та інтенсивно укріплює стрижень волосини.</p>
           <p>Склад: Cetearyl alcohol, Ceteareth-25, Stearic Acid, Palmitic acid, Propylene glycol, Laureth-6, Ammonia polyglyceryl-4 caprate, polyglyceryl-3, Ricinoleate, Polyquaternium-22, Cetrimonium chloride, Parfum, Edta, Citric acid, Sodium sulfite, Hydrolyzed keratin, Hydrolyzed vegetable protein Pg-Propyl silanetriol, Chenopodium Quinoa seed extract, p-Phenylenediamine, N,N-BIS(2-Hydroxyethyl)-P-Phenylen Ediamine Sulfate, M-Aminophenol, Resorcinol, Benzyl Salicylate, linalool</p>
         </div>
-        </Container>
+      </Container>
+        <AliceCarousel mouseTracking items={items} autoPlay="yes" infinite="yes" autoPlayInterval="2000" animationDuration="1500" disableButtonsControls="yes" keyboardNavigation="yes" />
+      <img className="listImg" src={list} alt="table" />
+      <img  className="listImg" src={schiaritura} alt="schiaritura" />
+      <img src={hairStyles} alt="hairStyles" />
     </div>
   );
 };
