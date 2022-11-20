@@ -46,6 +46,17 @@
     margin-bottom: 20px;
 }
 
+@media screen and (min-width: 1280px) {
+    .textWrapper {
+        padding: 60px;
+    }
+    
+    .textWrapper p {
+        line-height: 1.55;
+        font-size: 20px;
+    }
+}
+
 .textWrapper p {
     display: block;
     font-size: 16px;
