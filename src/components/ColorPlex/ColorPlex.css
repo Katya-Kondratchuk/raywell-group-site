@@ -1,3 +1,8 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+.alice-carousel__dots li:not(.__custom):not(:last-child) {
+    margin-right: 10px;
+}
+
 .colorplex-text {
     max-width: 560px;
     flex-wrap: nowrap;
@@ -6,7 +11,7 @@
 }
 
 .colorPlex-Title {
-    font-size: 42px;
+    font-size: 30px;
     line-height: 1.23;
     font-weight: 600;
     color: #000000;
@@ -19,10 +24,11 @@
 
 .colorPlexImg {
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .colorPlexColors{
-    font-size: 28px;
+    font-size: 24px;
     line-height: 1.17;
     font-weight: 600;
     padding-bottom: 35px;
@@ -31,23 +37,27 @@
 
 .textWrapper {
     margin: 0 auto;
-    padding: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 900px;
+    margin-bottom: 20px;
 }
 
 .textWrapper p {
     display: block;
-    font-size: 20px;
-    line-height: 1.55;
-    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.45;
+    font-weight: 300;
         color: #000000;
 }
 
 .textWrapper p:last-child {
 margin-top: 31px;
+}
+
+.listImg {
+    margin-bottom: 40px;
 }
