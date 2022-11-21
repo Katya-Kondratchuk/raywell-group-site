@@ -9,7 +9,6 @@ const IcyBlondePage = () => {
       <div>
       <Header />
       <IcyBlonde />
-      <Footer />
       </div>
   );
 };
