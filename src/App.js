@@ -15,6 +15,8 @@ import ColorPlexPage from "./pages/ColorPlexPage";
 import ShampooReflexPage from "./pages/ShampooReflexPage";
 import CollagenePage from "./pages/CollagenePage";
 import MilkProteinPage from "./pages/MilkProteinPage";
+import IcyBlondePage from "./pages/IcyBlondePage";
+
 
 const App = () => {
   return (
@@ -25,6 +27,7 @@ const App = () => {
       <Route path="powder" element={<Powder />} />
       <Route path="oxygen" element={<Oxygen />} />
       <Route path="colorplex" element={<ColorPlexPage />} />
+      <Route path="icyblonde" element={<IcyBlondePage />} />
       <Route path="envie" element={<EnviePage />} />
       <Route path="deco" element={<DecoPage />} />
       <Route path="respect" element={<RespectPage />} />
