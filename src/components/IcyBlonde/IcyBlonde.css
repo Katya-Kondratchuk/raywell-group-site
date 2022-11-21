@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.IcyBlondeTitle {
+    display: block;
+    margin: 0;
+    padding-top: 15px;
+    font-size: 55px;
+    line-height: 1.1;
+    letter-spacing: 5px;
+    font-family: 'Anton', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    font-weight: bold;
+}
+
+.IcyBlonde-bg {
+background-color: #1A2026;
+position: relative;
+}
+
+.BoxImg-animation {
+    background: transparent;
+    position: absolute;
+    content: '';
+    top: 0;
+animation: animate75 6000ms infinite 2000ms;
+    
+}
+
+@keyframes animate75 {
+ 0% {
+    transform: scale(1);
+}
+
+  50% {
+      transform: scale(1.25);
+  }
+
+100% {
+    transform: scale(1);
+}
+}
+
+.raywellContainer {
+    margin-top: 100px;
+    margin-left: auto;
+    display: block;
+    width: 113px;
+}
